@@ -1,0 +1,245 @@
+.caret
+  display: inline-block
+  width: 0
+  height: 0
+  margin-left: 2px
+  margin-top: 12px
+  vertical-align: middle
+  border-top: 6px dashed
+  border-top: 6px solid\9
+  border-right: 6px solid transparent
+  border-left: 6px solid transparent
+
+.box
+  width: 400px
+  height: 430px
+  border: 1px solid gray
+  background: #d6d6ce
+  margin: 20px auto 0
+  position: relative
+  padding: 1px
+  border-top: 1px solid white
+  border-left: 1px solid white
+  border-right: 1px solid #848484
+  border-bottom: 1px solid #848484
+  box-shadow: 1px 1px 1px #424242
+
+.header
+  background: #08216b /* For browsers that do not support gradients */    
+  background: -webkit-linear-gradient(left, #08216b , #a5c6ef) /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #08216b, #a5c6ef) /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #08216b, #a5c6ef) /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #08216b , #a5c6ef) /* Standard syntax (must be last) */
+  height: 35px
+  clear: both
+  .title
+    font-family: 'Tahoma', serif
+    color: white
+    font-size: 12px
+    font-weight: bold
+    float: left
+    line-height: 0px
+    margin: 3px 5px
+  .close
+    padding: 0px 8px
+    font-family: 'Lucida Sans Unicode'
+    color: black
+    font-weight: 700
+    background: #d6d6ce
+    float: right
+    line-height: 0px
+    font-size: 12px
+    margin: 3px
+    border-top: 1px solid white
+    border-left: 1px solid white
+    border-right: 1px solid #848484
+    border-bottom: 1px solid #848484
+    box-shadow: 1px 1px 1px #424242
+    &:hover
+      cursor: pointer
+
+.enter-label
+  clear: both
+  line-height: 0px
+  height: 50px
+  .text-label
+    float: left
+    font-family: 'Tahoma'
+    font-size: 14px
+    font-weight: 300
+    margin: 25px 0px 20px 30px
+  .lol-extra-border
+    border-top: 1px solid #848484
+    border-left: 1px solid #848484
+    border-right: 1px solid white
+    border-bottom: 1px solid white
+  .dropdown
+    float: right
+    font-family: 'Lucida Sans Unicode'
+    font-weight: 300
+    background: white
+    padding: 2px
+    width: 220px
+    margin: 20px 30px
+    letter-spacing: -1px
+    position: relative
+    border-top: 2px solid #424242
+    border-left: 2px solid #424242
+    border-right: 2px solid #d6d6ce
+    border-bottom: 2px solid #d6d6ce
+    .caret-box
+      position: absolute
+      top: 1px
+      right: 3px
+      height: 30px
+      background: #d6d6ce
+      border-top: 1px solid white
+      border-left: 1px solid white
+      border-right: 1px solid #848484
+      border-bottom: 1px solid #848484
+      box-shadow: 1px 1px 1px #424242
+      padding: 0px 3px
+      &:hover
+        cursor: pointer
+
+.msg-label
+  font-family: 'Tahoma'
+  margin: 40px 30px 10px
+  font-size: 14px
+  white-space: nowrap
+
+.customize-row
+  height: 30px
+  border: 1px solid white
+  outline: 1px solid #848484
+  margin: 0px 30px
+
+  .blue-a-box
+    margin-top: -10px
+    border-right: 1px solid #848484
+    width: 70px
+    font-family: 'Times New Roman'
+    .text-blue
+      font-weight: bolder
+      color: #0000ff
+      margin: 0px 10px
+      display: inline-block
+    .background-blue
+      font-weight: bolder
+      color: #d6d6ce
+      background: #0000ff
+      padding: 0px 5px
+      display: inline-block
+
+  .size-a-box
+    margin-top: -32px
+    margin-left: 72px
+    border-left: 1px solid white
+    border-right: 1px solid #848484
+    width: 100px
+    .small-a, .medium-a, .large-a
+      font-weight: bold
+      display: inline-block
+      margin: -10px 8px
+      font-family: 'Times New Roman'
+    .small-a
+      font-size: 12px
+    .medium-a
+      font-size: 16px
+    .large-a
+      font-size: 19px
+
+  .bold-box
+    margin-top: -18px
+    margin-left: 174px
+    border-left: 1px solid white
+    border-right: 1px solid #848484
+    width: 85px
+    .bold-text, .italic-text, .underline-text
+      display: inline-block
+      margin: -10px 8px
+      font-family: 'Times New Roman'
+    .bold-text
+      font-weight: bold
+    .italic-text
+      font-style: italic
+      font-size: 18px
+    .underline-text
+      text-decoration: underline
+      font-size: 19px
+
+  .link-box
+    margin-top: -18px
+    margin-left: 261px
+    border-left: 1px solid white
+    width: 75px
+    .link-text, img
+      margin: -10px 10px
+    .link-text
+      font-weight: bold
+      color: #0000ff
+      text-decoration: underline
+      font-size: 12px
+      display: inline-block
+      margin-top: -3px
+    img
+      display: inherit
+      margin: -20px 0px 0px 42px
+      width: 25%
+
+.text-box
+  textarea
+    margin: 2px 30px
+    width: 334px
+    font-family: 'Times New Roman'
+    font-size: 16px
+    resize: none
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    border-top: 1px solid #848484
+    border-left: 1px solid #848484
+    border-bottom: 1px solid #d6d6ce
+    border-right: 1px solid #d6d6ce
+    outline: 1px solid white
+
+
+.special-characters
+  font-family: 'Tahoma'
+  font-size: 14px
+  margin: 20px 30px
+  p
+    line-height: 8px
+  .why
+    margin-bottom: 0px
+
+.clear
+  clear: both
+.left
+  float: left
+.right
+  float: right
+  margin-top: 10px
+
+.bottom-buttons
+  width: 400px
+  text-align: center
+  margin: 5px auto
+  display: inline-block
+  button
+    font-family: 'Tahoma'
+    font-size: 14px
+    width: 100px
+    height: 30px
+    background: #d6d6ce
+    border-top: 1px solid white
+    border-left: 1px solid white
+    border-right: 1px solid #848484
+    border-bottom: 1px solid #848484
+    box-shadow: 1px 1px 1px #424242
+    &:hover
+      cursor: pointer
+
+footer
+  margin: 100px
+  font-size: 12px
+  font-family: 'Tahoma'
