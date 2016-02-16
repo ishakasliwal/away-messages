@@ -1,3 +1,15 @@
+@mixin tahoma
+  font-family: 'Tahoma'
+
+@mixin box-shadow-dark
+  box-shadow: 1px 1px 1px #424242
+
+@mixin button-border
+  border-top: 1px solid white
+  border-left: 1px solid white
+  border-right: 1px solid #848484
+  border-bottom: 1px solid #848484
+
 .caret
   display: inline-block
   width: 0
@@ -18,11 +30,9 @@
   margin: 20px auto 0
   position: relative
   padding: 1px
-  border-top: 1px solid white
-  border-left: 1px solid white
-  border-right: 1px solid #848484
-  border-bottom: 1px solid #848484
-  box-shadow: 1px 1px 1px #424242
+  +button-border
+  +box-shadow-dark
+  
 
 .header
   background: #08216b /* For browsers that do not support gradients */    
@@ -64,7 +74,7 @@
   height: 50px
   .text-label
     float: left
-    font-family: 'Tahoma'
+    +tahoma
     font-size: 14px
     font-weight: 300
     margin: 25px 0px 20px 30px
@@ -93,17 +103,14 @@
       right: 3px
       height: 30px
       background: #d6d6ce
-      border-top: 1px solid white
-      border-left: 1px solid white
-      border-right: 1px solid #848484
-      border-bottom: 1px solid #848484
-      box-shadow: 1px 1px 1px #424242
+      +button-border
+      +box-shadow-dark
       padding: 0px 3px
       &:hover
         cursor: pointer
 
 .msg-label
-  font-family: 'Tahoma'
+  +tahoma
   margin: 40px 30px 10px
   font-size: 14px
   white-space: nowrap
@@ -204,7 +211,7 @@
 
 
 .special-characters
-  font-family: 'Tahoma'
+  +tahoma
   font-size: 14px
   margin: 20px 30px
   p
@@ -226,20 +233,17 @@
   margin: 5px auto
   display: inline-block
   button
-    font-family: 'Tahoma'
+    +tahoma
     font-size: 14px
     width: 100px
     height: 30px
     background: #d6d6ce
-    border-top: 1px solid white
-    border-left: 1px solid white
-    border-right: 1px solid #848484
-    border-bottom: 1px solid #848484
-    box-shadow: 1px 1px 1px #424242
+    +button-border
+    +box-shadow-dark
     &:hover
       cursor: pointer
 
 footer
   margin: 100px
   font-size: 12px
-  font-family: 'Tahoma'
+  +tahoma
