@@ -1,17 +1,5 @@
-# Gulp Starter
-A starter kit for your front-end builds.
+# awaymessag.es
+the old aim away messages ui made with JUST html and css (insert audible 'wows' here)
 
-- Compiles, autoprefixes and minimizes your Sass (can easily switch to SCSS or LESS)
-- Uglifys your JS
-- Compresses your Images
-- Generates a BrowserSync URL for you to access.
-
-### Getting Started
-Clone: `http://github.com/dope/gulp-starter.git`
-
-Once you have cloned the repo, navigate in to the directory via terminal and run.
-
-```bash
-npm install
-gulp
-```
+#### things i know are missing ok
+i plan to make the text customizable using those color, size, etc. buttons, and redo this whole thing using canvas so that it can render as an image and ppl won't have to screenshot it. one step at a time ~~~~
